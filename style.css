@@ -1,0 +1,14 @@
+article {
+    flex: 1 1 250px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+
+
+}
+
+.gerichte {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
