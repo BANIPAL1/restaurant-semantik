@@ -1,14 +1,34 @@
+* {
+    box-sizing: border-box;
+  
+}
 article {
-    flex: 1 1 250px;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin: 1rem;
+      border: 1px solid #ccc;
+  padding: 1rem;  
+    
 
-
+  
 }
 
 .gerichte {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav-list{
+    display: flex;
+   gap: 1rem;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;  
 }
