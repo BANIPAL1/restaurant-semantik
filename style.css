@@ -11,13 +11,23 @@ body {
   
 }
 article {
+    position: relative;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 1.5rem;
   background-color: #fafafa;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
+.badge{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #c0392b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px; 
+    font-size: 0.9rem;
+}
 article:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
